@@ -1,0 +1,54 @@
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">执行费计算器</view>
+        <view class="page__desc">适用于向人民法院申请强制执行时，依法向人民法院缴纳的费用计算。</view>
+        <view class="page__desc">
+        <navigator url="zxfSF" class="weui-msg__link">查看计算依据</navigator></view>
+ </view>
+
+   <view class="weui-cells__title">选择是否有执行金额</view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_select">
+                <view class="weui-cell__hd weui-cell__hd_in-select-after">
+                    
+                </view>
+                <view class="weui-cell__bd">
+                    <picker bindchange="bindIshaveChange" value="{{ishaveIndex}}" range="{{ishave}}">
+                        <view class="weui-select weui-select_in-select-after">{{ishave[ishaveIndex]}}</view>
+                    </picker>
+                </view>
+            </view>
+        </view>
+
+    <view class="weui-cells weui-cells_after-title" wx:if="{{ishaveIndex == 0}}">
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">执行金额(元):</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" type="digit" placeholder="请输入执行金额" bindfocus="initData"  bindblur="getBiaodi"/>
+            </view>
+        </view>
+    </view>
+
+    <view class="weui-btn-area" wx:if="{{ishaveIndex == 0}}">
+        <button class="weui-btn" type="primary" bindtap="zxfCalculator">计算</button>
+    </view>
+
+    <view class="weui-article" wx:if="{{ishaveIndex == 1}}" >
+      <view class="weui-article__h1">计算结果:</view>
+                    <view class="weui-article__p">
+                    <text>没有执行金额或者价款的，每件交纳500元;</text>
+                    </view>
+    </view>
+
+
+    <view class="weui-article" wx:if="{{ishaveIndex == 0 && con == true}}" >
+      <view class="weui-article__h1">计算结果:</view>
+                    <view class="weui-article__p">
+                    <text> 执行费 {{zxfee}} 元 </text>
+                    </view>    
+    </view>
+
+
+</view>

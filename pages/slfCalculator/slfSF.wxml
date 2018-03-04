@@ -1,0 +1,54 @@
+<!--pages/slfCalculator/slfSF.wxml-->
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">案件受理费计算器</view>
+        <view class="page__desc">适用于计算当事人进行民事诉讼依法应向人民法院交纳的费用计算。</view>
+    </view>
+    <view class="page__bd">
+        <view class="weui-article">
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">一、财产案件受理费</view>
+                    <view class="weui-article__p">1.不超过1万元的，每件交纳50元；</view>
+                    <view class="weui-article__p">2.超过1万元至10万元的部分，按照2.5％交纳；</view>
+                    <view class="weui-article__p">3.超过10万元至20万元的部分，按照2％交纳；</view>
+                    <view class="weui-article__p">4.超过20万元至50万元的部分，按照1.5％交纳；</view>
+                    <view class="weui-article__p">5.超过50万元至100万元的部分，按照1％交纳；</view>
+                    <view class="weui-article__p">6.超过100万元至200万元的部分，按照0.9％交纳；</view>
+                    <view class="weui-article__p">7.超过200万元至500万元的部分，按照0.8％交纳；</view>
+                    <view class="weui-article__p">8.超过500万元至1000万元的部分，按照0.7％交纳；</view>
+                    <view class="weui-article__p">9.超过1000万元至2000万元的部分，按照0.6％交纳；</view>
+                    <view class="weui-article__p">10.超过2000万元的部分，按照0.5％交纳。</view>
+                </view>
+
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">二、非财产案件受理费</view>
+                    <view class="weui-article__p">1.离婚案件（涉及财产）：</view>
+                    <view class="weui-article__p">离婚案件每件交纳50元至300元。</view>
+                    <view class="weui-article__p">涉及财产分割，财产总额不超过20万元的，不另行交纳；超过20万元的部分，按照0.5％交纳。</view>
+                    <view class="weui-article__p">2.人格权侵权损害赔偿案件：</view>
+                    <view class="weui-article__p">侵害姓名权、名称权、肖像权、名誉权、荣誉权以及其他人格权的案件，每件交纳100元至500元。</view>
+                    <view class="weui-article__p">涉及损害赔偿，赔偿金额不超过5万元的，不另行交纳；超过5万元至10万元的部分，按照1％交纳；</view>
+                    <view class="weui-article__p">超过10万元的部分，按照0.5％交纳。</view> 
+                    <view class="weui-article__p">3.其他非财产案件：</view>
+                    <view class="weui-article__p">每件交纳100元。</view>               
+                </view> 
+
+                     <view class="weui-article__section">
+                    <view class="weui-article__h3">三、劳动争议案件受理费</view>
+                    <view class="weui-article__p">每件交纳10元；</view>
+                     </view>
+
+                     <view class="weui-article__section">
+                    <view class="weui-article__h3">四、行政案件受理费</view>
+                    <view class="weui-article__p">每件交纳50元；</view>
+                     </view>
+
+                      <view class="weui-article__section">
+                    <view class="weui-article__h3">五、案件管辖异议不成立</view>
+                    <view class="weui-article__p">每件交纳100元；</view>
+                     </view>
+
+
+            </view>
+        </view>
+    </view>

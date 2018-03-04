@@ -1,0 +1,53 @@
+<!--pages/bqfintrudce/bqfintrudce.wxml-->
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">执行费计算方法</view>
+        <view class="page__desc">适用于向人民法院申请强制执行时，依法向人民法院缴纳的费用计算。</view>
+    </view>
+    <view class="page__bd">
+        <view class="weui-article">
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">第一条：</view>
+                    <view class="weui-article__p">
+                        没有执行金额或者价款的，每件交纳500元;
+                    </view>
+                </view>
+
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">第二条：</view>
+                    <view class="weui-article__p">
+                        执行金额或者价额不超过1万元的，每件交纳50元；
+                    </view>
+                    </view> 
+
+                     <view class="weui-article__section">
+                    <view class="weui-article__h3">第三条：</view>
+                    <view class="weui-article__p">
+                        超过1万元至50万元的部分，按照1％交纳；
+                    </view>
+                     </view>
+
+                 <view class="weui-article__section">
+                    <view class="weui-article__h3">第四条：</view>
+                    <view class="weui-article__p">
+                        超过50万元至500万元的部分，按照1％交纳；
+                    </view>
+                     </view>
+
+                 <view class="weui-article__section">
+                    <view class="weui-article__h3">第五条：</view>
+                    <view class="weui-article__p">
+                        超过500万元至1000万元的部分，按照0.5％交纳；
+
+                    </view>
+                </view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">第五条：</view>
+                    <view class="weui-article__p">
+                        超过1000万元的部分,按照0.1％交纳。
+                    </view>
+                     </view>
+
+            </view>
+        </view>
+    </view>

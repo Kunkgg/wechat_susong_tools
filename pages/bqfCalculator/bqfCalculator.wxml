@@ -1,0 +1,42 @@
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">保全费计算器</view>
+        <view class="page__desc">适用于向人民法院申请财产保全时，依法向人民法院缴纳的费用计算。</view>
+        <view class="page__desc">
+        <navigator url="bqfSF" class="weui-msg__link">查看计算依据</navigator></view>
+ </view>
+
+    <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">诉讼标的(元):</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" type="digit" placeholder="请输入诉讼标的金额" bindfocus="initData" bindblur="getBiaodi"/>
+            </view>
+        </view>
+    </view>
+
+    
+    <view class="weui-btn-area">
+    <view class="weui-cell__bd"><text decode="true">&nbsp;</text></view>
+    <view class="weui-cell__bd"><text decode="true">&nbsp;</text></view>
+        <button class="weui-btn" type="primary" bindtap="bqfCalculator">计算</button>
+    </view>
+    <view class="weui-article" wx:if="{{con === true && err == false}}" >
+      <view class="weui-article__h1">计算结果:</view>
+                    <view class="weui-article__p">
+                    <text>保全费   {{bqfee}}  元</text>
+
+                    </view>
+        
+        </view>
+
+    <view class="weui-article" wx:if="{{con === false && err == true}}" >
+      <view class="weui-article__h1">计算结果:</view>
+            <view class="weui-article__p"><text> {{bqfee}} </text>
+            </view>
+    </view>
+
+
+</view>

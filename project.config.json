@@ -9,9 +9,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.9.91",
-	"appid": "wx1ef13a728c6fa861",
-	"projectname": "%2Fhome%2Fgk07%2Fwechat%2Fsunfei",
-	"isGameTourist": false,
+	"appid": "touristappid",
+	"projectname": "t",
 	"condition": {
 		"search": {
 			"current": -1,

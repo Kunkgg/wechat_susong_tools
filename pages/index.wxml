@@ -1,0 +1,57 @@
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">法律工具箱</view>
+        <view class="page__desc">法律的力量应当跟随着公民，就像影子跟随着身体一样:)</view>
+    </view>
+    <view class="page__bd">
+        <view class="weui-panel weui-panel_access">
+            <view class="weui-panel__hd">计算工具列表</view>
+            <view class="weui-panel__bd">
+                <navigator url="./bqfCalculator/bqfCalculator" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src="./imgs/c1.jpeg" />
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">保全费计算器</view>
+                        <view class="weui-media-box__desc">适用于向人民法院申请财产保全时，依法向人民法院缴纳的费用计算。</view>
+                    </view>
+                </navigator>
+                <navigator url="./zxfCalculator/zxfCalculator" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src="./imgs/c1.jpeg" />
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">执行费计算器</view>
+                        <view class="weui-media-box__desc">适用于向人民法院申请强制执行时，依法向人民法院缴纳的费用计算。</view>
+                    </view>
+                </navigator>
+                <navigator url="./slfCalculator/slfCalculator" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src="./imgs/c1.jpeg" />
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">案件受理费计算器</view>
+                        <view class="weui-media-box__desc">适用于计算当事人进行民事诉讼依法应向人民法院交纳的费用计算。</view>
+                    </view>
+                </navigator>
+                <navigator url="./otherFee/otherFee" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src="./imgs/c1.jpeg" />
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">其他费用计算介绍</view>
+                        <view class="weui-media-box__desc">支付令申请费;公示催告申请费;破产案件申请费;申请再审案件受理费;证人等相关人员成本;复制案卷材料和法律文书的工本费。</view>
+                    </view>
+                </navigator>
+            </view>
+
+             <view class="weui-footer">
+            <view class="weui-footer__links">
+                <navigator url="./selfintroduction/selfintroduction" class="weui-footer__link">西安诉讼保全平台</navigator>
+            </view>
+            <view class="weui-footer__text">Copyright © 2018-2026 西安诉讼保全平台</view>
+        </view>
+        
+        </view>
+    </view>
+</view>

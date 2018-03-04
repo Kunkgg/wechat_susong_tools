@@ -1,0 +1,29 @@
+<!--pages/selfintroduction/selfintroduction.wxml-->
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">西安诉讼保全平台</view>
+        <view class="page__desc">专业诉讼保全平台，对接西安各家法院，优质的服务，专业的技能，用心打造良好的法律环境</view>
+    </view>
+    <view class="page__bd">
+        <view class="weui-article">
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">联系方式</view>
+                    <view class="weui-article__p">联系人：孙飞</view>
+                    <view class="weui-article__p">单位：中国大地财产保险股份有限公司陕西分公司</view>
+                    <view class="weui-article__p">职务：诉讼财产保全责任险业务经理</view>
+                    <view class="weui-article__p">电话：15891725795 / 13572599462 </view>
+                    <view class="weui-article__p">微信号:sunfeikk007</view>
+                    <view class="weui-article__p">地址：西安市未央区老三届31楼</view>
+                    <view class="weui-article__p">邮编：710000</view>     
+                </view>
+        <view class="weui-article">
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">公众号平台二维码：</view> 
+                </view>
+        <view class="weui-article__p">
+                        <image class="weui-article__img" src="https://mmbiz.qpic.cn/mmbiz_jpg/Pqor2OTVjR7DL2bkiaG7gOSl61iaibFGxeWicY1ic5hQo3WibVaySbPLPdOKHYP4PXZQwicrdrdEUOl5aZ5OUQAPiaAStw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1" mode="aspectFit" />
+        </view>
+ </view>
+            </view>
+        </view>
+    </view>

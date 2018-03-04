@@ -1,0 +1,52 @@
+<!--pages/otherFee/otherFee.wxml-->
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">其他费用计算介绍</view>
+        <view class="page__desc">支付令申请费;公示催告申请费;破产案件申请费;申请再审案件受理费;证人等相关人员成本;复制案卷材料和法律文书的工本费。</view>
+    </view>
+
+    <view class="page__bd">
+        <view class="weui-article">
+                    <view class="weui-article__h3">1. 支付令申请费</view>
+                    <view class="weui-article__p">
+                        比照财产案件受理费的1/3交纳。
+                    </view>
+                </view>
+
+        <view class="weui-article">
+                    <view class="weui-article__h3">2. 公示催告申请费</view>
+                    <view class="weui-article__p">
+                        每件100元交纳。
+                    </view>
+                </view>
+        
+        <view class="weui-article">
+            <view class="weui-article__h3">3. 破产案件申请费</view>
+            <view class="weui-article__p">
+                比照财产案件受理费的1/3交纳。最高不超过30万元。
+            </view>
+        </view>
+
+        <view class="weui-article">
+            <view class="weui-article__h3">4. 申请再审案件受理费</view>
+            <view class="weui-article__p">
+                按不服原判决部分的再审请求数额交纳。
+            </view>
+        </view>
+
+        <view class="weui-article">
+            <view class="weui-article__h3">5. 证人等相关人员成本</view>
+            <view class="weui-article__p">
+                证人、鉴定人、翻译人员、理算人员出庭的交通费、住宿费、生活费和误工补贴，按国家标准(西中法发[2007]17号)代收。
+            </view>
+        </view>
+
+        <view class="weui-article">
+            <view class="weui-article__h3">6. 复制案卷材料和法律文书的工本费</view>
+            <view class="weui-article__p">
+                复制案卷材料和法律文书的工本费,按照实际成本(法发[2007]30号)收取
+            </view>
+        </view>
+
+            </view>
+    </view>

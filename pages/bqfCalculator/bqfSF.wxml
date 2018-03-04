@@ -1,0 +1,43 @@
+<!--pages/bqfintrudce/bqfintrudce.wxml-->
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">保全费计算方法</view>
+        <view class="page__desc">申请保全措施的，根据实际保全的财产数额按照下列标准向法院交纳。</view>
+    </view>
+    <view class="page__bd">
+        <view class="weui-article">
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">第一条：</view>
+                    <view class="weui-article__p">
+                        财产数额不超过1000元或者不涉及财产数额的，每件交纳30元；
+                    </view>
+                </view>
+
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">第二条：</view>
+                    <view class="weui-article__p">
+                        超过1000元至10万元的部分，按照1%交纳；
+
+                    </view>
+                    </view> 
+
+                 <view class="weui-article__section">
+                    <view class="weui-article__h3">第三条：</view>
+                    <view class="weui-article__p">
+                        超过10万元的部分，按照0.5％交纳；
+
+                    </view>
+                     </view>
+
+                 <view class="weui-article__section">
+                    <view class="weui-article__h3">第四条：</view>
+                    <view class="weui-article__p">
+
+                        但是，当事人申请保全措施交纳的费用最多不超过5000元。
+
+                    </view>
+
+                </view>
+            </view>
+        </view>
+    </view>
