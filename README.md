@@ -1,2 +1,5 @@
 # wechat_susong_tools
-诉讼保全相关小计算工具
+法律常用小计算器
+
+### 效果
+![使用效果](./Sample.gif)
